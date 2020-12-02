@@ -1,14 +1,40 @@
-/* Basislayout */
+/* style the top navigation bar*/
+.topnav
+{ overflow: hidden;
+  background-color: #333;
+width: 21.79%; 
+margin: center;}
+/* Style the topnav links */
+.topnav a {
+  float: center;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  padding: 20px 22px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+header {text-align: center;
+color: white;}
+
+
 
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(255, 255, 255);  
     
-    color: #303030;
+    color: #ffffff;
     font: Verdana, Arial, Sans-Serif;
 }
 
+article {
+    text-align: justify;
+}
 
 main {
     margin: 0 auto;
@@ -16,51 +42,12 @@ main {
     position: relative;
 }
 
-
-article {
-    text-align: justify;
-}
-
-
-header {
-    color: skyblue;
-    text-align: center;
-}
-
-
-footer {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-
-/* specifieke stijlen */
-
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
-}
-
-.smalltext {
-    font-size: 0.7em;
-}
-
-a {
-    color: skyblue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #000000;
     overflow: hidden;
 }
 
@@ -77,12 +64,21 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #ffffff;
 }
 
 nav li a.active {
     background-color: skyblue;
 }
+
+body{ background-image: url("afbeelding/achtergrond.jpg") ;
+background-size: 125%;
+height: 115%;
+}
+
+
+
+
 
 
 
